@@ -1,0 +1,171 @@
+
+.nav-link{
+    color:#282e40;
+    font-size: 18px;
+}
+.nav-link{
+    color:#282e40;
+}
+.nav-item{
+    padding:0 10px;
+}
+/********* header section ***********/
+header{
+    background-color: #282e40;
+    
+    color:#fff;
+}
+header >div{
+    display: flex;
+    flex-direction: column;
+
+}
+header img{
+    width:100%;
+    margin-top:50px;
+}
+header p{
+    font-size: 17px;
+    padding-top:15px;
+}
+header h1{
+    font-size: 48px;
+}
+header span{
+    font-size: 40px;
+    color:#5293b7;
+}
+
+@media screen and (min-width:768px){
+    header{
+        height: 80vh;
+    }
+    header >div{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .content{
+        width:50%;
+    }
+}
+/******************about  **************/
+button{
+    padding: 20px 45px;
+    background-color: #282e40;
+    border: none;
+    color:#fff;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: #5293b7;
+}
+#about .content{
+    display:flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px){
+    #about .content{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+/*********** fruts section **************/
+#fruits{
+    background-color: #282e40;
+}
+#fruits .col-md-4 p{
+    color:#5293b7;
+    font-size: 17px;
+}
+/************* fresh fruit section *****************/
+.fresh  div.content{
+    display:flex;
+    flex-direction: column;
+}
+.fresh h2{
+    color:#5293b7;
+    font-size: 48px;
+}
+.fresh p{
+    font-size: 17px;
+}
+@media screen and (min-width:768px){
+    .fresh  div.content{
+        flex-direction: row;
+        align-items: center;
+    }
+    .fresh article{
+        padding-left:50px;
+        padding-right: 15px;
+        width:60%;
+    }
+}
+/************* blog section **************/
+#blog{
+    background-color: #282e40;
+}
+#blog .content p:first-child{
+    color: #fff;
+}
+#blog .content{
+    background-color: #12c6f4;
+    
+}
+#blog .back{
+    width:100%;
+    height: 100px;
+    position:absolute;
+    background-color: #12c6f4;
+    bottom:70px;
+    z-index: 1;
+    transform: skewY(5deg);
+}
+#blog .content{
+    position: relative;
+    z-index: 2;
+}
+/************** contact section ************/
+#contact input{
+   border: none;
+   outline: none;
+   margin-bottom: 15px;
+   padding:15px;
+   background-color: #282e40;
+}
+textarea{
+    background-color: #282e40;
+    padding:15px;
+}
+#contact h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+#contact span{
+    color: #12c6f4;
+}
+#contact button{
+    background-color: #12c6f4;
+    padding: 10px 35px;
+    margin-top: 15px;
+}
+/* footer */
+footer{
+    background-color: #282e40;
+}
+footer h3{
+    margin-bottom: 15px;
+}
+footer button{
+    padding:5px 10px;
+    background-color: #12c6f4;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.copyright{
+    background-color: #046882;
+    padding: 10px 0 7px;
+    color: #fff;
+    text-align: center;
+}
